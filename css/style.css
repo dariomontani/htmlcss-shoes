@@ -11,6 +11,7 @@
 
 header{
     width: 100%;
+    z-index: 1;
     position: fixed;
 }
 
@@ -31,17 +32,34 @@ div a{
     font-size: 1.5em;
 }
 
+section{
+    position: relative;
+}
+
+.shoe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #red-1{
+    text-align: center;
+    color: yellow;
     height: 100vh;
     background-color: red;
 }
 
 #green-2{
+    text-align: center;
+    color: yellow;
     height: 100vh;
     background-color: green;
 }
 
 #yellow-3{
+    text-align: center;
+    color: green;
     height: 100vh;
     background-color: yellow;
 }
