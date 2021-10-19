@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Suez One', serif;
+}
+
+.container{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+}
+
+header div{
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3em;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+
+div a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#red-1{
+    height: 100vh;
+    background-color: red;
+}
+
+#green-2{
+    height: 100vh;
+    background-color: green;
+}
+
+#yellow-3{
+    height: 100vh;
+    background-color: yellow;
+}
